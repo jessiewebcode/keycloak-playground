@@ -10,3 +10,4 @@ docker run --network neutrality_network -d \
     --name n_poc_auth jboss/keycloak
 
 docker cp auth/keycloak-protocol-cas-12.0.2.jar n_poc_auth:/opt/jboss/keycloak/standalone/deployments/keycloak-protocol-cas-12.0.2.jar
+echo "Open Keycloak Server in: http://127.0.0.1:9861"
