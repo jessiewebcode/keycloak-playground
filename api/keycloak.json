@@ -1,0 +1,8 @@
+{
+  "realm": "neutrality-1",
+  "auth-server-url": "http://localhost:9861/auth",
+  "ssl-required": "external",
+  "resource": "admin-cli",
+  "public-client": true,
+  "confidential-port": 0
+}

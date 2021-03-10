@@ -1,0 +1,18 @@
+{
+  "redirect_uris": [
+    "http://localhost:9861/auth/realms/neutrality-1/broker/oidc-solid-community/endpoint"
+  ],
+  "client_id": "17757ac221751a1e97aa65c1f283bd15",
+  "client_secret": "00c76c027d10d936a5324ff2cc477b4f",
+  "response_types": ["code"],
+  "grant_types": ["authorization_code"],
+  "application_type": "native",
+  "client_name": "secure-app",
+  "subject_type": "pairwise",
+  "id_token_signed_response_alg": "RS256",
+  "token_endpoint_auth_method": "client_secret_basic",
+  "registration_access_token": "eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NvbGlkY29tbXVuaXR5Lm5ldCIsImF1ZCI6IjE3NzU3YWMyMjE3NTFhMWU5N2FhNjVjMWYyODNiZDE1Iiwic3ViIjoiMTc3NTdhYzIyMTc1MWExZTk3YWE2NWMxZjI4M2JkMTUifQ.ljFTeOY-G7v8xHJo67wMDHMpt7fFNhr4SKzFkFPdoDqMPhYZ-0v8N7WXQYdA36g2Ba8mQ1k_Cdr1r6MDR-BG6viLDltAXWgjTzOD52eIxuTiFOfWyQkmQok2IYFIFJSxlM0ODNZcJVfrGjesKiwAIAwU-Z9r7JuZV0Ee-xqH9EDlWOVyVQJXf8yF-AYhEFQB98tuo9o3JaYXW1iqc7y8JB2XcTSoLKQQMzLMRHLlOo4Iiu5RxmOlPYSbCXR-Rt75AVoWiLekKA2_p8J5mc52gkS35UxLq84KAfFF5J2ThlQdu1z0om_nQYr_Hc6Kx46-OSdPrerX45bTxIDUlYG03g",
+  "registration_client_uri": "https://solidcommunity.net/register/17757ac221751a1e97aa65c1f283bd15",
+  "client_id_issued_at": 1613944749,
+  "client_secret_expires_at": 0
+}

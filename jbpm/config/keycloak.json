@@ -1,0 +1,9 @@
+{
+  "realm": "neutrality-1",
+  "auth-server-url": "http://localhost:9861/auth/",
+  "ssl-required": "all",
+  "resource": "kie",
+  "credentials": {
+    "secret": "b34d4c5a-d714-4692-8292-721c5af9329d"
+  }
+}

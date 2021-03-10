@@ -1,0 +1,16 @@
+{
+  "redirect_uris": ["http://localhost:9861/auth/realms/neutrality-1/broker/oidc-inrupt/endpoint"],
+  "client_id": "e191d8080ce1fcf98b861612c948acad",
+  "client_secret": "61a9d6a554d1256c95b197eee600b588",
+  "response_types": ["code"],
+  "grant_types": ["authorization_code"],
+  "application_type": "native",
+  "client_name": "nautrality-client-inrupt",
+  "subject_type": "pairwise",
+  "id_token_signed_response_alg": "RS256",
+  "token_endpoint_auth_method": "client_secret_basic",
+  "registration_access_token": "eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2lucnVwdC5uZXQiLCJhdWQiOiJlMTkxZDgwODBjZTFmY2Y5OGI4NjE2MTJjOTQ4YWNhZCIsInN1YiI6ImUxOTFkODA4MGNlMWZjZjk4Yjg2MTYxMmM5NDhhY2FkIn0.SEKvV5h5Q6p0LvNgck1uvyhATvwO0vQIrkZDzdVzQQ4Jc9XDgFYwGtPLnB8_U7SEV7geq3dwi4pbHZMYZYxZb4QwzCzBFsMAwyXpNIGuP9PXp4n_e0o2YWxeXVw3OcXCyD5LTAVyDyzOgWN0n8LATar56UYUhrJlT8-ClZLTq2etnqcdBl4Yo8I3A4kTrvvM8rQl1onqjLZkEjKE3rIPvJg-XoEVi14iUDYJa-RksuJ52hAA_QSWgHmX3dmAmtkOQHbVb3kRBLgQ2BEJuFhYYtjyTPR93DAUO6FoEjGjwpTOWJo91g97jWUIR0LEYJDq_2_CN1L14zzzA1FUhzof4Q",
+  "registration_client_uri": "https://inrupt.net/register/e191d8080ce1fcf98b861612c948acad",
+  "client_id_issued_at": 1613944390,
+  "client_secret_expires_at": 0
+}
